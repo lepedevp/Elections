@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -263,4 +257,3 @@ itog
 
 itog2 = 'На {0} {1} опережает {2}. После подсчета 100% протоколов избирательных комиссий результат составляет {3}% голосов избирателей. Больше всего голосов за {4} было отдано в {5}. Худший результат в {6}. Общее количество недействительных бюллетеней на выборах составило {7} штук. Явка на выборах – {8}%.'.format(elect,names01,names2,procent1,familia1,pl_max1,pl_min1,nb,yavka)
 itog2
-
