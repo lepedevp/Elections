@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
@@ -249,7 +243,3 @@ itogi2.format(names02,region2,procent2_min,names1,names2,name_elect,procent1,fam
 
 
 # In[ ]:
-
-
-
-
